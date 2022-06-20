@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "@babel/env",
+    "@babel/preset-typescript",
+    "preact",
+    [
+      "env", {
+        "targets": {
+          "browsers": ["last 2 versions", "ie >= 7"]
+        }
+      }
+    ],
+  ]
+}
